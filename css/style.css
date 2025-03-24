@@ -95,9 +95,6 @@ ul {
    margin: 20px;
    padding-left: 30px;
    padding-right: 30px;
-   padding-bottom: 0px;
-   padding-top: 0px;
-   border: 20px;
 }
 
 ol {
@@ -107,9 +104,6 @@ ol {
    margin: 20px;
    padding-left: 30px;
    padding-right: 30px;
-   padding-bottom: 0px;
-   padding-top: 0px;
-   border: 20px;
 }
 
 /* Fitoterapia */
@@ -128,8 +122,6 @@ ol {
    margin: 40px;
    padding-left: 95px;
    padding-right: 95px;
-   padding-bottom: 0px;
-   padding-top: 0px;
    font-size: 15px; 
 }
 
@@ -166,8 +158,6 @@ ol {
    margin: 40px;
    padding-left: 95px;
    padding-right: 95px;
-   padding-bottom: 0px;
-   padding-top: 0px;
    font-size: 15px; 
 }
 
@@ -176,8 +166,6 @@ ol {
    margin: 40px;
    padding-left: 95px;
    padding-right: 95px;
-   padding-bottom: 0px;
-   padding-top: 0px;
    font-size: 20px; 
 }
 
@@ -186,8 +174,6 @@ ol {
    margin: 40px;
    padding-left: 95px;
    padding-right: 95px;
-   padding-bottom: 0px;
-   padding-top: 0px;
    font-size: 15px; 
 }
 
@@ -276,7 +262,6 @@ ol {
    height: 470px;
    margin: 10px;
    padding: 10px;
-   border: 10px;
 }
 
 /* Quienes somos display general*/
@@ -301,10 +286,10 @@ ol {
    justify-content: center;
    text-align: justify;
    margin: 40px;
-   padding-left: 40pxpx;
-   padding-right: 40pxpx;
-   padding-bottom: 20pxpx;
-   padding-top: 20pxpx;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-bottom: 20px;
+   padding-top: 20px;
    font-size: 15px;
 
 }
@@ -329,8 +314,6 @@ ol {
    margin-bottom: 40px;
    padding-left: 30px;
    padding-right: 30px;
-   padding-bottom: 0px;
-   padding-top: 0px;
    font-size: 15px;
 }
 
