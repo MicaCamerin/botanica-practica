@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas y Sistemas</title>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/d5a7b3c28d.js" crossorigin="anonymous"></script>
+    
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+ <!-- CSS -->
+ <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+   <header>
+<!-- Menu viejo 
+      <div class="display-header">
+         <form class="busqueda" action="/submit" method="get">
+            <input type="text" placeholder="Buscar..." name="search">
+            <input type="submit" value="Buscar">
+         </form>   
+         <form class="usuario" action="/ruta-de-inicio-de-sesion" method="post">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Iniciar Sesión</button>
+         </form>
+      </div>
+         
+
+      <nav>
+         <ul class="menu">
+              <li><a href="../index.html">INICIO</a></li>
+              <li><a href="./nosotros.html">SOBRE NOSOTROS</a></li>
+              <li><a href="./fitoterapia.html">FITOTERAPIA</a></li>
+              <li><a href="./newsletter.html">NEWSLETTER</a></li>
+         </ul>
+      </nav>-->
+   
+    <!-- menu boostrap-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Botánica Práctica</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="./fitoterapia.html">Fitoterapia</a></li>
+               <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./tinturasMadre.html">Tinturas Madre</a></li>
+                <li><a class="dropdown-item" href="#">Plantas y Sistemas</a></li>
+                <li><a class="dropdown-item" href="./microdosisJarabes.html">Microdosis y Jarabes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="./newsletter.html">Newsletter</a>
+             </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+   </header>
+    
+ <main>
+    <h1>PLANTAS Y SISTEMAS</h1>
+    <h2 class="titulotn" >Una botica virtual: Plantas para cada sistema del cuerpo.</h2>
+    <p class="parrafotn" >
+      En la fitoterapia, cada planta tiene su propio propósito y afinidad con distintos sistemas del cuerpo. Desde hierbas que fortalecen el sistema digestivo hasta aquellas que apoyan la salud del sistema nervioso, la naturaleza nos brinda herramientas para equilibrar y armonizar nuestro bienestar. En este artículo, exploraremos las principales plantas asociadas a cada sistema corporal y cómo pueden ayudarnos en nuestra vida cotidiana.
+    </p>
+
+   <h2 class="titulotn">Sistemas</h2>
+<section class="sistemamenu">
+    <a href="#sistemar" class="enlasessistemas" >Sistema Respiratorio</a>
+    <a href="#sistemad" class="enlasessistemas" >Sistema Digestivo</a>
+    <a href="#sisteman" class="enlasessistemas" >Sistema Nervioso</a>
+</section>
+
+<h2 class="titulotn">Plantas</h2>
+<section class="plantasmenu">
+   <div><a href="#eucalipto"><img class="imagplantasmenu" src="../imagenes/eucalipto.png" alt="eucalipto"></a></div>
+   <div><a href="#cebolla"><img class="imagplantasmenu" src="../imagenes/cebolla.png" alt="cebolla"></a></div>
+   <div><a href="#salvia"><img class="imagplantasmenu" src="../imagenes/salvia.png" alt="salvia"></a></div>
+   <div><a href="#hinojo"><img class="imagplantasmenu" src="../imagenes/hinojo.png" alt="hinojo"></a></div>
+   <div><a href="#mazanilla"><img class="imagplantasmenu" src="../imagenes/manzanilla.png" alt="manzanilla"></a></div>
+   <div><a href="#romero"><img class="imagplantasmenu" src="../imagenes/romero.png" alt="romero"></a></div>
+   <div><a href="#pasionaria"><img class="imagplantasmenu" src="../imagenes/pacionaria.png" alt="pasionaria"></a></div>
+   <div><a href="#valeriana"><img class="imagplantasmenu" src="../imagenes/valeriana.png" alt="valeriana"></a></div>
+   <div><a href="#lavanda"><img class="imagplantasmenu" src="../imagenes/lavanda.png" alt="lavanda"></a></div>
+</section>
+
+    <section id="sistemar" >
+      <h3 class="titulotn">Sistema Respiratorio</h3>
+      <p class="parrafotn">
+         Respirar es más que una función vital: es nuestra conexión con el mundo, el flujo constante de vida que entra y sale de nuestro cuerpo. Algunas plantas han acompañado a la humanidad durante siglos, ayudando a limpiar, fortalecer y equilibrar el sistema respiratorio. Desde aquellas que despejan las vías respiratorias hasta las que calman la tos y la inflamación, la naturaleza nos ofrece aliados para respirar mejor y más profundo.
+      </p>
+    </section>
+   
+   <section id="eucalipto">
+      <h4 class="titulotn3">Eucalipto <span class="italic"> (Eucalyptus globulus)</span></h4>
+      <p class="parrafotn">
+         El eucalipto es una de las plantas más reconocidas en fitoterapia por su capacidad para aliviar problemas respiratorios. Sus hojas contienen eucaliptol (cineol), un compuesto con propiedades expectorantes, antiinflamatorias y antisépticas que ayuda a despejar las vías respiratorias y a combatir infecciones. Ideal para aliviar resfriados, sinusitis, bronquitis y congestión nasal.
+      </p>
+      <h4 class="titulotn3">Usos fitoterapéuticos:</h4>
+      <ul class="listatn">
+         <li>Se utiliza en inhalaciones de vapor para aliviar la congestión nasal y la bronquitis, ayudando a despejar las vías respiratorias.</li>
+         <li>Su infusión es útil para calmar la tos y la irritación en la garganta.</li>
+         <li>El aceite esencial de eucalipto, diluido en agua o aplicado en el pecho mediante un ungüento, puede facilitar la respiración y reducir la inflamación de los bronquios.</li>
+         <li>También es eficaz en gárgaras, mezclado con agua tibia, para tratar infecciones en la garganta.</li>
+      </ul>
+   </section>
+   
+   <section id="cebolla">
+      <h4 class="titulotn3">Cebolla <span class="italic"> (Allium cepa)</span></h4>
+      <p class="parrafotn">La cebolla es un remedio tradicional en muchas culturas para tratar afecciones respiratorias. Contiene compuestos sulfurados (como la alicina) y quercetina, que tienen efectos mucolíticos, antibacterianos y antiinflamatorios. Estos compuestos ayudan a fluidificar la mucosidad y a expulsarla más fácilmente, además de reforzar el sistema inmunológico. Ideal para tratar la tos productiva, la congestión y las infecciones respiratorias leves.
+      </p>
+      <h4 class="titulotn3">Usos fitoterapéuticos:</h4>
+      <ul class="listatn">
+         <li>Un jarabe casero de cebolla (cebolla macerada con miel o azúcar) es un remedio clásico para la tos y la congestión.</li>
+         <li>Se puede consumir en infusión junto con jengibre y miel para aliviar la irritación de garganta y reducir la inflamación.</li>
+         <li>Colocar una cebolla cortada cerca de la cama durante la noche puede ayudar a descongestionar las vías respiratorias y mejorar la respiración.</li>
+         <li>En cataplasmas, la cebolla triturada y aplicada sobre el pecho ayuda a descongestionar los pulmones y mejorar la expectoración.</li>
+      </ul>
+   </section>
+      
+<section id="salvia">
+   <h4 class="titulotn3">Salvia <span class="italic"> (Salvia officinalis)</span></h4>
+   <p class="parrafotn">La salvia es conocida por sus propiedades antisépticas, antiinflamatorias y expectorantes, lo que la convierte en una aliada valiosa para el sistema respiratorio. Sus hojas contienen compuestos como el tujona, el ácido rosmarínico y los flavonoides, que ayudan a calmar la irritación de garganta, reducir la mucosidad y fortalecer el sistema inmunológico. Ideal para tratar la irritación de garganta, la tos seca, la afonía y las infecciones respiratorias leves.</p>
+   <h4 class="titulotn3">Usos fitoterapéuticos:</h4>
+   <ul class="listatn">
+      <li>Una infusión de salvia ayuda a aliviar la tos seca y a despejar la garganta inflamada.</li>
+      <li>Hacer gárgaras con infusión de salvia y sal marina es un remedio eficaz para tratar la faringitis, la laringitis y el dolor de garganta.</li>
+      <li>En inhalaciones de vapor, la salvia puede combinarse con otras plantas como el eucalipto para aliviar la congestión y limpiar las vías respiratorias.</li>
+      <li>Su aceite esencial, aplicado de forma controlada, puede ayudar a despejar los senos paranasales y fortalecer el sistema inmunológico.</li>
+   </ul>
+</section>
+
+<img class="imagenes" src="../imagenes/eucaliptofoto.png" alt="foto de eucalipto">
+      
+<section id="sistemad">
+   <h3 class="titulotn">Sistema Digestivo</h3>
+   <p class="parrafotn">Nuestro sistema digestivo es el centro de transformación de todo lo que consumimos, el puente entre el mundo exterior y nuestra energía vital. En la fitoterapia, muchas plantas han sido utilizadas para mejorar la digestión, aliviar molestias y fortalecer el equilibrio intestinal. Desde hierbas amargas que estimulan el apetito hasta aquellas que calman y regeneran, este apotecario natural nos brinda herramientas para cuidar nuestra salud digestiva de forma holística</p>
+</section>
+      
+<section id="hinojo">
+   <h4 class="titulotn3">Hinojo <span class="italic"> (Foeniculum vulgare)</span></h4>
+   <p class="listatn">El hinojo es una de las plantas más valoradas en la fitoterapia digestiva gracias a su contenido en anetol, flavonoides y aceites esenciales, que le otorgan propiedades carminativas, antiespasmódicas y digestivas. Es especialmente útil para aliviar la hinchazón, mejorar la digestión y reducir los espasmos intestinales.</p>
+   <h4 class="titulotn3">Usos fitoterapéuticos:</h4>
+   <ul class="listatn">
+      <li>La infusión de semillas de hinojo es un remedio tradicional para reducir los gases, aliviar la hinchazón y mejorar la digestión después de las comidas.</li>
+      <li>Su acción antiespasmódica lo hace ideal para calmar cólicos estomacales y relajar el tracto digestivo.</li>
+      <li>Favorece la producción de jugos gástricos y ayuda en casos de digestiones lentas o pesadas.</li>
+      <li>Se recomienda también en casos de reflujo ácido, ya que ayuda a equilibrar la acidez estomacal.</li>
+   </ul>
+</section>
+      
+<section id="manzanilla">
+   <h4 class="titulotn3">Manzanilla <span class="italic"> (Matricaria chamomilla)</span></h4>
+   <p class="listatn">La manzanilla es una de las plantas más utilizadas para el bienestar digestivo gracias a su riqueza en flavonoides, lactonas sesquiterpénicas y aceites esenciales. Sus propiedades antiinflamatorias, carminativas y sedantes la convierten en un remedio natural para calmar el estómago y aliviar molestias digestivas.</p>
+   <h4 class="titulotn3">Usos fitoterapéuticos:</h4>
+   <ul class="listatn">
+      <li>La infusión de manzanilla es un remedio clásico para tratar la indigestión, aliviar la acidez y reducir la inflamación del estómago.</li>
+      <li>Su efecto calmante y sedante ayuda a relajar el tracto digestivo y disminuir el estrés, un factor clave en problemas digestivos como el síndrome de intestino irritable.</li>
+      <li>Es eficaz para aliviar los espasmos intestinales y cólicos, especialmente en niños y personas con digestión sensible.</li>
+      <li>También tiene propiedades antibacterianas y antifúngicas, útiles en casos de infecciones digestivas leves.</li>
+   </ul>
+</section>
+      
+<section id="romero">
+   <h4 class="titulotn3">Romero <span class="italic"> (Rosmarinus officinalis)</span></h4>
+   <p class="listatn">El romero es una planta estimulante y tónica para el sistema digestivo. Contiene ácido rosmarínico, flavonoides y aceites esenciales, que le otorgan propiedades coleréticas (estimulan la producción de bilis), carminativas y digestivas. Es especialmente útil para mejorar la digestión de grasas y aliviar la pesadez estomacal.</p>
+   <h4 class="titulotn3">Usos fitoterapéuticos:</h4>
+   <ul class="listatn">
+      <li>La infusión de romero favorece la producción de bilis y mejora la digestión, especialmente después de comidas pesadas o ricas en grasas.</li>
+      <li>Su efecto antiespasmódico ayuda a reducir los cólicos y calmar molestias digestivas.</li>
+      <li>Se utiliza como tónico digestivo, estimulando el metabolismo y favoreciendo la absorción de nutrientes.</li>
+      <li>También tiene propiedades antioxidantes y antimicrobianas, que pueden ayudar a mantener un equilibrio saludable en la microbiota intestinal.</li>
+   </ul>
+</section>
+
+<img class="imagenes" src="../imagenes/manzanillafoto.png" alt="manzanilla">
+      
+<section id="sisteman">
+   <h3 class="titulotn">Sistema Nervioso</h3>
+   <p class="listatn">El sistema nervioso es el tejido sutil que conecta nuestra mente, emociones y cuerpo. En tiempos de estrés o agotamiento, ciertas plantas pueden actuar como un bálsamo, ayudando a calmar la mente, mejorar la concentración o incluso restaurar el equilibrio emocional. La fitoterapia nos ofrece una variedad de aliados naturales que nos invitan a encontrar serenidad y claridad en nuestro día a día.</p>
+</section>
+      
+<section id="pasionaria">
+   <h4 class="titulotn3">Pasiflora o Pasionaria <span class="italic"> (Passiflora incarnata)</span></h4>
+   <p class="listatn">La pasionaria es una de las plantas más utilizadas en fitoterapia para calmar el sistema nervioso. Sus compuestos activos, como los flavonoides y alcaloides (harmina y harmol), le otorgan propiedades ansiolíticas, sedantes y relajantes. Es ideal para reducir la ansiedad, el insomnio y el estrés sin generar dependencia.</p>
+   <h4 class="titulotn3">Usos fitoterapéuticos:</h4>
+   <ul class="listatn">
+      <li>La infusión de pasiflora es un remedio natural para relajar la mente, reducir la ansiedad y mejorar la calidad del sueño.</li>
+      <li>Su acción sedante suave la hace útil para tratar el insomnio ocasional, ayudando a conciliar el sueño sin generar efectos de somnolencia excesiva.</li>
+      <li>Actúa como un equilibrante del sistema nervioso, reduciendo los síntomas del estrés y la hiperactividad mental.</li>
+      <li>También tiene propiedades antiespasmódicas, lo que la hace útil en casos de tensión muscular o molestias digestivas relacionadas con el estrés.</li>
+   </ul>
+</section>
+      
+<section id="valeriana">
+   <h4 class="titulotn3">Valeriana <span class="italic"> (Valeriana officinalis)</span></h4>
+   <p class="listatn">La valeriana es una de las plantas más conocidas por su efecto relajante sobre el sistema nervioso. Sus raíces contienen ácidos valerénicos y alcaloides, que tienen un potente efecto sedante, ansiolítico y relajante muscular. Es una excelente aliada para tratar el insomnio, la tensión nerviosa y el estrés.</p>
+   <h4 class="titulotn3">Usos fitoterapéuticos:</h4>
+   <ul class="listatn">
+      <li>La infusión o tintura de valeriana es un remedio eficaz para combatir el insomnio y mejorar la calidad del sueño.</li>
+      <li>Su acción relajante muscular ayuda a aliviar la tensión, los espasmos y el estrés acumulado en el cuerpo.</li>
+      <li>Es útil en casos de ansiedad e irritabilidad, ya que actúa como un tranquilizante natural sin generar dependencia.</li>
+      <li>También se emplea en el tratamiento del nerviosismo digestivo, ayudando a calmar el estómago cuando el estrés afecta la digestión.</li>
+   </ul>
+</section>
+      
+<section id="lavanda">
+   <h4 class="titulotn3">Lavanda <span class="italic"> (Lavandula angustifolia)</span></h4>
+   <p class="listatn">La lavanda es una planta reconocida por su efecto relajante y equilibrante sobre el sistema nervioso. Sus flores contienen aceites esenciales (linalool y acetato de linalilo) con propiedades ansiolíticas, sedantes y antidepresivas, lo que la convierte en un remedio natural para reducir el estrés y mejorar el bienestar emocional.</p>
+   <h4 class="titulotn3">Usos fitoterapéuticos:</h4>
+   <ul class="listatn">
+      <li>La infusión de lavanda ayuda a calmar la mente, reducir la ansiedad y promover un estado de relajación.</li>
+      <li>El aceite esencial de lavanda, aplicado en aromaterapia o en masajes, es un potente relajante para aliviar el estrés y mejorar el estado de ánimo.</li>
+      <li>Su uso en baños relajantes con flores de lavanda o aceite esencial ayuda a reducir la tensión acumulada y mejorar el sueño.</li>
+      <li>También es útil para tratar dolores de cabeza tensionales y migrañas, aplicando el aceite esencial en las sienes o inhalando su aroma.</li>
+   </ul>
+</section>
+
+<img class="imagenes" src="../imagenes/pasionariafoto.png" alt="pasionaria">
+
+<h2 class="titulotn">Mapa de Plantas Autoctonas</h2>
+      <div id="mapa">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1jO0HnYnHJIbzx6VddfskScJ5PXp8f8Q&ehbc=2E312F" width="640" height="480"></iframe>
+      </div>
+
+      <p class="listatn">La fitoterapia nos recuerda que la naturaleza tiene un lenguaje propio, donde cada planta ofrece un equilibrio particular para nuestro bienestar. A través de este recorrido por el sistema respiratorio, digestivo y nervioso, hemos visto cómo el eucalipto despeja las vías respiratorias, el hinojo alivia la hinchazón y la pasionaria calma la mente, entre muchas otras conexiones entre las plantas y el cuerpo humano. Estas antiguas aliadas han acompañado a diversas culturas durante siglos, y hoy continúan siendo una opción valiosa para armonizar nuestra salud de manera natural.</p>
+      <p class="listatn">Sin embargo, el uso de las plantas medicinales no es un camino rígido ni uniforme. Cada organismo responde de manera única, y es importante escuchar a nuestro cuerpo, experimentar con prudencia y, cuando sea necesario, buscar la orientación de un profesional. La fitoterapia no busca sustituir la medicina convencional, sino complementarla, ofreciendo herramientas sutiles pero poderosas para mejorar la calidad de vida. Integrar estas plantas en el día a día puede ser un acto de conexión con nosotros mismos y con el entorno, recuperando la sabiduría de los remedios naturales.</p>
+      <p class="listatn">Al final, cuidar nuestra salud con fitoterapia no es solo una práctica, sino también una invitación a vivir de forma más consciente. Observar las estaciones, conocer el origen de lo que consumimos y entender cómo cada planta influye en nuestro bienestar nos permite construir una relación más profunda con la naturaleza. Así, este apotecario virtual es solo un punto de partida: un recordatorio de que en cada hoja, flor o raíz hay una historia esperando ser descubierta.</p>
+
+      <section class="fuentes">
+         <h3 class="titulofuentes">Fuentes:</h3>
+         <div>
+           <p class="parrafofuente">"Herbal Medicines: A Guide for Healthcare Professionals" de Linda Anne Chiej</p>
+           <a href="http://www.amazon.com/Herbal-Medicines-Guide-Healthcare-Professionals/dp/0853692890" target="_blank" class="enlacefuente">¡Obtene tu copia!</a>
+         </div>
+          <div>
+           <p class="parrafofuente">"The Complete Herbal Handbook for Farm and Stable" de Juliette de Bairacli Levy</p>
+           <a href="http://www.amazon.com/Complete-Herbal-Handbook-Farm-Stable/dp/0571161162/ref=sr_1_1?crid=6QIK8RV94DGA&dib=eyJ2IjoiMSJ9.BoIglUd8na2gpSe8lZoFrMskzbv5RrzvYGFSuCtH6A_GjHj071QN20LucGBJIEps.NQ9cS1d9EE2NbalwaE7zoA8H3vxx85fPDpcVCfRY33Y&dib_tag=se&keywords=%22The+Complete+Herbal+Handbook+for+Farm+and+Stable%22&qid=1739657030&s=books&sprefix=the+complete+herbal+handbook+for+farm+and+stable+%2Cstripbooks-intl-ship%2C405&sr=1-1" target="_blank" class="enlacefuente">¡Obtene tu copia!</a>
+          </div>
+      </section>
+ </main>
+
+ <footer>
+
+   <!-- Informaciòn de contacto -->
+   <div>
+      <h3 class="footertx">Información de Contacto</h3>
+      <a href="tel:+5491123906976" target="_blank"><i class="fa-solid fa-phone"></i></a>
+      <a href="mailto:botanicapractica@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+   </div>
+  
+   <!-- Copyright -->
+   <div class="copyright">
+      <p>Copyright Botanica Práctica - 2025. Todos los derechos reservados.</p>
+   </div>
+  
+   <!-- Redes Sociales -->
+   <div>
+     <h3 class="footertx">Redes Sociales</h3>
+     <a href="http://www.instagram.com/botanica_practica_con_vos/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+     <a href="http://www.tiktok.com/@botanicapractica" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+  </div>
+
+</footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitoterapia</title>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/d5a7b3c28d.js" crossorigin="anonymous"></script>
+
+ <!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">   
+
+ <!-- CSS -->
+ <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <header>
+<!-- Menu viejo 
+        <div class="display-header">
+           <form class="busqueda" action="/submit" method="get">
+              <input type="text" placeholder="Buscar..." name="search">
+              <input type="submit" value="Buscar">
+           </form>   
+           <form class="usuario" action="/ruta-de-inicio-de-sesion" method="post">
+              <label for="username">Usuario:</label>
+              <input type="text" id="username" name="username" required>
+              <label for="password">Contraseña:</label>
+              <input type="password" id="password" name="password" required>
+              <button type="submit">Iniciar Sesión</button>
+           </form>
+              </div>
+
+            <nav>
+               <ul class="menu">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./nosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="#">FITOTERAPIA</a></li>
+                <li><a href="./newsletter.html">NEWSLETTER</a></li>
+               </ul>
+            </nav>-->
+     
+    <!-- menu boostrap-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Botánica Práctica</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="#">Fitoterapia</a></li>
+               <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./tinturasMadre.html">Tinturas Madre</a></li>
+                <li><a class="dropdown-item" href="./plantasSistemas.html">Plantas y Sistemas</a></li>
+                <li><a class="dropdown-item" href="./microdosisJarabes.html">Microdosis y Jarabes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="./newsletter.html">Newsletter</a>
+             </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+     </header>
+    
+ <main>
+    <h1>FITOTERAPIA</h1>
+    <h2 class="titulofito" >La Sabiduría de las Plantas</h2>
+    <p class="parrafofito" >La fitoterapia es una disciplina milenaria que utiliza extractos y compuestos naturales de las plantas para prevenir, aliviar y tratar diversas afecciones. Desde tiempos ancestrales, civilizaciones como la egipcia, la china y la griega han documentado el uso de hierbas medicinales en sus tradiciones curativas. De hecho, textos médicos como el Papiro de Ebers (datado alrededor del 1500 a.C.) y los escritos de Hipócrates, considerado el padre de la medicina, hacen referencia a remedios basados en plantas.</p>
+    <p class="parrafofito" >Hoy en día, la fitoterapia sigue siendo una alternativa complementaria cada vez más valorada en la medicina natural y holística. Su objetivo principal es aprovechar las propiedades terapéuticas de flores, hojas, raíces y cortezas para fortalecer el organismo y tratar dolencias de manera equilibrada y respetuosa con el cuerpo. Entre sus múltiples beneficios, se destacan su capacidad para aliviar el estrés, mejorar la digestión, fortalecer el sistema inmunológico y contribuir al bienestar general sin recurrir a sustancias sintéticas.</p>
+    <p class="parrafofito" >Ya sea a través de infusiones, tinturas, aceites esenciales o suplementos, la fitoterapia nos invita a reconectar con la sabiduría de la naturaleza y a redescubrir el potencial sanador que las plantas han ofrecido a la humanidad desde tiempos inmemoriales.</p>
+    
+    
+  <section class="categorias">
+    <a href="./tinturasMadre.html">
+        <img class="categoriasima" src="../imagenes/tintura-madre.jpeg" alt="tintura madre">
+    </a>
+    <a href="./plantasSistemas.html">
+        <img class="categoriasima" src="../imagenes/plantas-y-sistemas.jpeg" alt="plantas y sistemas">
+    </a>
+    <a href="./microdosisJarabes.html">
+        <img class="categoriasima" src="../imagenes/microdosis-y-jarabes.jpeg" alt="microdosis y jarabes">
+    </a>
+  </section>  
+
+ </main>
+    
+ <footer>
+
+   <!-- Informaciòn de contacto -->
+   <div>
+      <h3 class="footertx">Información de Contacto</h3>
+      <a href="tel:+5491123906976" target="_blank"><i class="fa-solid fa-phone"></i></a>
+      <a href="mailto:botanicapractica@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+   </div>
+  
+   <!-- Copyright -->
+   <div class="copyright">
+      <p>Copyright Botanica Práctica - 2025. Todos los derechos reservados.</p>
+   </div>
+  
+   <!-- Redes Sociales -->
+   <div>
+     <h3 class="footertx">Redes Sociales</h3>
+     <a href="http://www.instagram.com/botanica_practica_con_vos/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+     <a href="http://www.tiktok.com/@botanicapractica" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+  </div>
+
+</footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

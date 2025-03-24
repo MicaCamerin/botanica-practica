@@ -1,0 +1,399 @@
+
+/* Css Reset */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Header */
+.bg-body-tertiary{ 
+   background-color: #fff8f0 !important; 
+   font-family: "Faculty Glyphic", serif;
+   font-size: 14px;
+}
+
+.navbar .nav-link,
+.navbar .dropdown-item {
+   text-align: justify;
+   margin-left: 40px;
+   margin-right: 40px;
+   color: rgb(68, 51, 32);
+   text-decoration: none;
+}
+
+/* Main */
+body{
+   font-family: "Faculty Glyphic", serif;
+   color: #443320;
+   background-color: #fffefd
+}
+
+.banner{
+   width: 100%;
+   padding-bottom: 30px;
+}
+
+/* Datos de la Semana */
+.titulodatos {
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+   font-size: 20px;
+}
+
+.datosp{
+   display: flex; 
+   justify-content: center;
+   text-align: justify;
+   margin: 40px;
+   padding-left: 95px;
+   padding-right: 95px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   font-size: 15px;
+}
+
+/* Etiquetas generales */
+
+.italic{
+   font-style: italic;
+}
+
+h1 {
+   display: flex; 
+   justify-content: center;
+   margin: 20px;
+   padding: 20px;
+   border: 20px;
+   font-size: 30px;
+}
+
+h4{
+   display: flex;
+   justify-content: left;
+   margin-left: 20px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-left: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+
+.imagenes {
+   margin: 0 auto;
+   display: block;
+   width: 800px;
+   height: 400px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+
+}
+
+ul {
+   display: block;
+   justify-content: center;
+   text-align: justify;
+   margin: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   border: 20px;
+}
+
+ol {
+   display: block;
+   justify-content: center;
+   text-align: justify;
+   margin: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   border: 20px;
+}
+
+/* Fitoterapia */
+
+.titulofito{
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+   font-size: 25px;
+}
+
+.parrafofito{
+   display: flex; 
+   justify-content: center;
+   text-align: justify;
+   margin: 40px;
+   padding-left: 95px;
+   padding-right: 95px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   font-size: 15px; 
+}
+
+/* Categorìas Fitoterapia */
+.categorias {
+   display: flex; 
+   justify-content: space-evenly;
+   margin: 20px;
+   padding: 20px;
+   border: 20px;
+
+}
+
+.categoriasima {
+   width: 335px; 
+   height: 200px; 
+   align-items: center;
+   margin-top: 20px; 
+   margin-bottom: 20px;
+}
+
+/* Tinturas Madre */
+.titulotn{
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+   font-size: 25px;
+}
+
+.parrafotn{
+   display: flex; 
+   justify-content: center;
+   text-align: justify;
+   margin: 40px;
+   padding-left: 95px;
+   padding-right: 95px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   font-size: 15px; 
+}
+
+.titulotn3{
+   text-align: left;
+   margin: 40px;
+   padding-left: 95px;
+   padding-right: 95px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   font-size: 20px; 
+}
+
+.listatn{
+   text-align: justify;
+   margin: 40px;
+   padding-left: 95px;
+   padding-right: 95px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   font-size: 15px; 
+}
+
+/* Sistemas Menu */
+.sistemamenu{
+   display: flex; 
+   justify-content: center; 
+}
+
+.enlasessistemas{
+   margin: 40px;
+   padding-left: 95px;
+   padding-right: 95px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   color: rgb(68, 51, 32);
+   text-decoration: none;
+   border: 2px solid #443320; 
+   border-radius: 10px;
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #fffefd;
+}
+
+/* Grilla Plantas y Sistemas */
+.plantasmenu{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+}
+
+.imagplantasmenu{
+   height: 35vh;
+   width: 20vw;
+   margin-left: 75px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 2px;
+   overflow: hidden;
+   border: 2px solid #443320
+   
+}
+
+#mapa{
+   display: flex;
+   justify-content: center; 
+   margin: 0;
+}
+
+/* Todas las fuentes/bibliografìas */
+.fuentes {
+   display: flex; 
+   align-items: center;
+   font-size: 12px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.titulofuentes{
+   display: flex; 
+   justify-content: left;
+   margin: 35px;
+   padding-left: 100px;
+   padding-right: 20px;
+   font-size: 18px;
+}
+
+.parrafofuente{
+   text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 12px;
+}
+
+.enlacefuente{
+   text-align: justify;
+   margin-left: 10px;
+   margin-right: 40px;
+   color: rgb(68, 51, 32);
+   text-decoration: none;
+}
+
+
+/* Quienes somos imagnes*/
+.nosotros {
+   width: 350px;
+   height: 470px;
+   margin: 10px;
+   padding: 10px;
+   border: 10px;
+}
+
+/* Quienes somos display general*/
+.quienessomos {
+   display: flex; 
+   justify-content: center;
+   margin: 10px;
+   padding: 40px;
+}
+
+.titulonosotros{
+      display: flex; 
+      justify-content: center;
+      margin: 10px;
+      padding: 10px;
+      border: 10px;
+      font-size: 20px;
+}
+
+.parrafonosotros{
+   display: flex; 
+   justify-content: center;
+   text-align: justify;
+   margin: 40px;
+   padding-left: 40pxpx;
+   padding-right: 40pxpx;
+   padding-bottom: 20pxpx;
+   padding-top: 20pxpx;
+   font-size: 15px;
+
+}
+
+.titulolectores{
+   display: flex; 
+   justify-content: left;
+   margin: 30px;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 20px;
+   font-size: 20px;
+}
+
+.parrafolectores{
+   display: flex; 
+   justify-content: left;
+   text-align: justify;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-top: 0px;
+   margin-bottom: 40px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   font-size: 15px;
+}
+
+.enlacenosotros{
+   font-size: 15px;
+   color: #443320;
+   margin-left: 40px;
+   margin-top: 10px;
+   text-decoration: none;
+   border: 2px solid #443320; 
+   border-radius: 10px;
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #fffefd;
+}
+
+/* Newsletter*/
+.newsletter {
+   display: flex;
+   justify-content: space-around;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-bottom: 40px;
+   margin-top: 40px;
+ 
+}
+
+/* Pàginas en proceso*/
+.proximamente{
+ text-align: center;
+ padding: 60px;
+ margin: 52px;
+}
+
+/* Footer*/
+footer {
+   display: flex; 
+   justify-content: space-evenly;
+   font-family: "Faculty Glyphic", serif;
+   color: #fff8f0;
+   background-color: #443320
+}
+
+div i{
+   font-size: 20px;
+   color: #fff8f0;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+}
+
+.footertx{
+   font-size: 15px;
+   padding: 10px;
+}
+
+.copyright{
+   text-align: center;
+   font-size: 10px;
+   padding: 30px;
+}
+
