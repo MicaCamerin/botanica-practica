@@ -11,12 +11,22 @@
  $paddingtext: 95px;
  $margins: 20px;
  $marginm: 40px;
+ $textalignj: justify;
+ $textalignc: center;
  
  /* Mixin */
 @mixin flexbox ($display, $jcontent) {
   display: $display;
   justify-content: $jcontent;
 }
+
+/* Extend */
+.titulo-base {
+  text-align: $textalignc;
+  margin: 10px;
+  padding: 10px;
+}
+
 
  /* Header */
  .bg-body-tertiary { 
@@ -28,7 +38,7 @@
   .navbar {
     .nav-link,
     .dropdown-item {
-      text-align: justify;
+      text-align: $textalignj;
       margin-left: $marginm;
       margin-right: $marginm;
       color: rgb(68, 51, 32);
@@ -83,7 +93,7 @@ h4{
 }
 
 ul {
-  text-align: justify;
+  text-align: $textalignj;
   margin: $margins;
   padding-left: 30px;
   padding-right: 30px;
@@ -91,7 +101,7 @@ ul {
 }
 
 ol {
-  text-align: justify;
+  text-align: $textalignj;
   margin: $margins;
   padding-left: 30px;
   padding-right: 30px;
@@ -100,14 +110,12 @@ ol {
 
 /* Datos de la Semana */
 .titulodatos {
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
+@extend .titulo-base;
   font-size: 20px;
 }
 
 .datosp{
-  text-align: justify;
+  text-align: $textalignj;
   margin: $marginm;
   padding-left: $paddingtext;
   padding-right: $paddingtext;
@@ -118,14 +126,12 @@ ol {
 /* Fitoterapia */
 
 .titulofito{
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
+@extend .titulo-base;
   font-size: 25px;
 }
 
 .parrafofito{
-  text-align: justify;
+  text-align: $textalignj;
   margin: $marginm;
   padding-left: $paddingtext;
   padding-right: $paddingtext;
@@ -135,8 +141,7 @@ ol {
 
 /* Categorìas Fitoterapia */
 .categorias {
-  display: flex; 
-  justify-content: space-evenly;
+  @include flexbox(flex,space-evenly);
   margin: $margins;
   padding: 20px;
   border: 20px;
@@ -152,14 +157,12 @@ ol {
 
 /* Tinturas Madre */
 .titulotn{
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
+@extend .titulo-base;
   font-size: 25px;
 }
 
 .parrafotn{
-  text-align: justify;
+  text-align: $textalignj;
   margin: $marginm;
   padding-left: $paddingtext;
   padding-right: $paddingtext;
@@ -176,7 +179,7 @@ ol {
 }
 
 .listatn{
-  text-align: justify;
+  text-align: $textalignj;
   margin: $marginm;
   padding-left: $paddingtext;
   padding-right: $paddingtext;
@@ -185,8 +188,7 @@ ol {
 
 /* Sistemas Menu */
 .sistemamenu {
-  display: flex; 
-  justify-content: center; 
+  @include flexbox(flex,center);
 
   .enlasessistemas {
     margin: $marginm;
@@ -229,14 +231,12 @@ ol {
 
 /* Todas las fuentes/bibliografìas */
 .fuentes {
-  display: flex; 
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  @include flexbox(flex,center);
+  margin-top: $margins;
+  margin-bottom: $margins;
 
   .titulofuentes {
-    display: flex; 
-    justify-content: left;
+    @include flexbox(flex,left);
     margin: 35px;
     padding-left: 100px;
     padding-right: 20px;
@@ -244,7 +244,7 @@ ol {
   }
 
   .enlacefuente {
-    text-align: justify;
+    text-align: $textalignj;
     margin-left: 10px;
     margin-right: $marginm;
     color: rgb(68, 51, 32);
@@ -269,14 +269,12 @@ ol {
 
 /* Quienes somos display general*/
 .quienessomos {
-  display: flex; 
-  justify-content: center;
+  @include flexbox(flex,center);
   margin: 10px;
   padding: 40px;
 
   .titulonosotros{
-    display: flex; 
-    justify-content: center;
+    @include flexbox(flex,center);
     margin: 10px;
     padding: 10px;
     border: 10px;
@@ -284,9 +282,8 @@ ol {
 }
 
 .parrafonosotros{
-  display: flex; 
-  justify-content: center;
-  text-align: justify;
+  @include flexbox(flex,center);
+  text-align: $textalignj;
   margin: $marginm;
   padding-left: 40px;
   padding-right: 40px;
@@ -320,7 +317,7 @@ ol {
 }
 
 .parrafolectores{
-  text-align: justify;
+  text-align: $textalignj;
   margin-left: $marginm;
   margin-right: $marginm;
   margin-bottom: $marginm;
@@ -338,15 +335,14 @@ margin: $marginm;
 
 /* Pàginas en proceso*/
 .proximamente{
-text-align: center;
+text-align: $textalignc;
 padding: 60px;
 margin: 52px;
 }
 
 /* Footer*/
 footer {
-  display: flex; 
-  justify-content: space-evenly;
+  @include flexbox(flex,space-evenly);
   font-family: "Faculty Glyphic", serif;
   color: #fff8f0;
   background-color: #443320;
@@ -367,7 +363,7 @@ footer {
   }
 
   .copyright {
-    text-align: center;
+    text-align: $textalignc;
     font-size: 10px;
     padding: 30px;
   }
@@ -458,7 +454,7 @@ footer {
     padding: 10px 20px;
     background-color: #fffefd;
     font-size: 10px;
-    text-align: center;
+    text-align: $textalignc;
  }
 
     /* Grilla Plantas y Sistemas */
@@ -483,8 +479,7 @@ footer {
 
 /* Quienes somos display general*/
 .quienessomos {
-  display: block;
-  justify-content: center;
+  @include flexbox(block,center);
 }
 
 .titulonosotros{
@@ -513,8 +508,7 @@ footer {
 
 /* Newsletter*/
 .newsletter {
-  display: block;
-  justify-content: left;
+  @include flexbox(block,left);
  margin: $margins;
 }
   }

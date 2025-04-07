@@ -8,6 +8,13 @@
 
 /* Variables */
 /* Mixin */
+/* Extend */
+.titulo-base, .titulotn, .titulofito, .titulodatos {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
 /* Header */
 .bg-body-tertiary {
   background-color: #fff8f0 !important;
@@ -42,22 +49,22 @@ body {
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
   margin: 20px;
   padding: 20px;
   font-size: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 h4 {
-  display: flex;
-  justify-content: left;
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
   padding-left: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
+  display: flex;
+  justify-content: left;
 }
 
 .imagenes {
@@ -70,57 +77,51 @@ h4 {
 }
 
 ul {
-  display: block;
-  justify-content: center;
   text-align: justify;
   margin: 20px;
   padding-left: 30px;
   padding-right: 30px;
+  display: block;
+  justify-content: center;
 }
 
 ol {
-  display: block;
-  justify-content: center;
   text-align: justify;
   margin: 20px;
   padding-left: 30px;
   padding-right: 30px;
+  display: block;
+  justify-content: center;
 }
 
 /* Datos de la Semana */
 .titulodatos {
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
   font-size: 20px;
 }
 
 .datosp {
-  display: flex;
-  justify-content: center;
   text-align: justify;
   margin: 40px;
   padding-left: 95px;
   padding-right: 95px;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Fitoterapia */
 .titulofito {
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
   font-size: 25px;
 }
 
 .parrafofito {
-  display: flex;
-  justify-content: center;
   text-align: justify;
   margin: 40px;
   padding-left: 95px;
   padding-right: 95px;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Categorìas Fitoterapia */
@@ -141,20 +142,17 @@ ol {
 
 /* Tinturas Madre */
 .titulotn {
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
   font-size: 25px;
 }
 
 .parrafotn {
-  display: flex;
-  justify-content: center;
   text-align: justify;
   margin: 40px;
   padding-left: 95px;
   padding-right: 95px;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .titulotn3 {
@@ -211,15 +209,15 @@ ol {
 }
 
 #mapa {
+  margin: 0;
   display: flex;
   justify-content: center;
-  margin: 0;
 }
 
 /* Todas las fuentes/bibliografìas */
 .fuentes {
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -294,18 +292,16 @@ ol {
 }
 
 .titulolectores {
-  display: flex;
-  justify-content: left;
   margin: 30px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 20px;
   font-size: 20px;
+  display: flex;
+  justify-content: left;
 }
 
 .parrafolectores {
-  display: flex;
-  justify-content: left;
   text-align: justify;
   margin-left: 40px;
   margin-right: 40px;
@@ -313,13 +309,15 @@ ol {
   padding-left: 30px;
   padding-right: 30px;
   font-size: 15px;
+  display: flex;
+  justify-content: left;
 }
 
 /* Newsletter*/
 .newsletter {
+  margin: 40px;
   display: flex;
   justify-content: space-around;
-  margin: 40px;
 }
 
 /* Pàginas en proceso*/
