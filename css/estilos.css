@@ -206,6 +206,10 @@ ol {
   border-radius: 10px;
   overflow: hidden;
   border: 2px solid #443320;
+  transition: transform 0.5s ease;
+}
+.plantasmenu .imagplantasmenu:hover {
+  transform: translate(-10px, -10px);
 }
 
 #mapa {
