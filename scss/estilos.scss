@@ -231,13 +231,13 @@ ol {
 
 /* Todas las fuentes/bibliografìas */
 .fuentes {
-  @include flexbox(flex,center);
+  @include flexbox(flex,left);
+  padding-left: 30px;
   margin-top: $margins;
   margin-bottom: $margins;
 
   .titulofuentes {
     @include flexbox(flex,left);
-    margin: 35px;
     padding-left: 100px;
     padding-right: 20px;
     font-size: 18px;
@@ -250,13 +250,15 @@ ol {
     color: rgb(68, 51, 32);
     text-decoration: none;
   }
-}
 
-.parrafofuente{
-  text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 12px;
+  & div {
+    .parrafofuente{
+      text-align: $textalignc;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 12px;
+    }
+  }
 }
 
 /* Quienes somos imagenes*/
@@ -279,32 +281,32 @@ ol {
     padding: 10px;
     border: 10px;
     font-size: 20px;
-}
+  }
 
-.parrafonosotros{
-  @include flexbox(flex,center);
-  text-align: $textalignj;
-  margin: $marginm;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  font-size: $fonttext;
+  .parrafonosotros{
+    @include flexbox(flex,center);
+    text-align: $textalignj;
+    margin: $marginm;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: $fonttext;
+  
+  }
 
-}
-
-.enlacenosotros{
-  font-size: $fonttext;
-  color: #443320;
-  margin-left: $marginm;
-  margin-top: 10px;
-  text-decoration: none;
-  border: 2px solid #443320; 
-  border-radius: 10px;
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #fffefd;
-}
+  .enlacenosotros{
+    font-size: $fonttext;
+    color: #443320;
+    margin-left: 85px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: 2px solid #443320; 
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fffefd;
+  }
 }
 
 .titulolectores{
@@ -391,30 +393,38 @@ footer {
 }
 
 /* Todas las fuentes/bibliografìas */
-.titulofuentes{
-  margin: $margins;
-  padding-left: 50px;
-  padding-right: 20px;
-  font-size: $fonttext;
-}
+.fuentes{
+  .titulofuentes{
+    padding-left: 0;
+    padding-right: 50px;
+    font-size: $fonttext;
+  }
 
 .enlacefuente{
   font-size: 8px;
 }
 
+& div {
 .parrafofuente{
   padding-left: 5px;
   padding-right: 5px;
   font-size: 7px;
 }
-
- /* Footer*/
- div i{
-  font-size: 10px;
+}
 }
 
-.footertx{
-  font-size: 10px;
+
+ /* Footer*/
+
+footer{
+  div { 
+  i{
+    font-size: 10px;
+  }
+  .footertx{
+    font-size: 10px;
+  }
+}
 }
 
   /* Tinturas Madre */
@@ -442,6 +452,7 @@ footer {
 }
 
    /* Sistemas Menu */
+   .sistemamenu{
    .enlasessistemas{
     margin: 10px;
     padding-left: 15px;
@@ -456,6 +467,7 @@ footer {
     font-size: 10px;
     text-align: $textalignc;
  }
+}
 
     /* Grilla Plantas y Sistemas */
 .plantasmenu{
@@ -463,10 +475,10 @@ footer {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(9, 1fr);
   justify-items: center;
-}
 
-.imagplantasmenu{
-  width: 60vw;  
+  .imagplantasmenu{
+    width: 60vw;  
+  }
 }
 
 /* Quienes somos imagnes*/
@@ -480,14 +492,21 @@ footer {
 /* Quienes somos display general*/
 .quienessomos {
   @include flexbox(block,center);
-}
 
-.titulonosotros{
-  font-size: $fonttext;
-}
+  .titulonosotros{
+    font-size: $fonttext;
+  }
 
 .enlacenosotros{
   font-size: 10px;
+}
+
+.parrafonosotros{
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
 }
 
 .titulofito{
@@ -501,9 +520,11 @@ footer {
 }
 
 /* Categorìas Fitoterapia */
+.categorias {
 .categoriasima {
   width: 100px; 
   height: 50px; 
+}
 }
 
 /* Newsletter*/
@@ -511,4 +532,4 @@ footer {
   @include flexbox(block,left);
  margin: $margins;
 }
-  }
+}
